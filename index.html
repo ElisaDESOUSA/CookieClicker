@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cookie Clicker</title>
+</head>
+<body>
+    <h1>Cookie Clicker !</h1>
+    <p>Les règles du jeu sont simples : Manger le plus de cookies possible !</p>
+    <p>Comment ? Il suffit juste de clicker sur le cookie !</p>
+    <div class ="clickerCookie" id="clickerCookie">
+        <img src="cookie.png" id="cookie" style="width: 20%" onclick="increment()">
+    </div>
+    <div class = "clickerBoost" id ="clickerBoost">
+        <button>Boost</button>
+        <button>Auto-click</button>
+    </div>
+    <div class ="inventory" id ="inventory">
+        <p>Tu as mangé <span id ="eatenCookie">0</span> cookies !</p>
+        <p>Tu as un boost de x <span id="boostCookie">0</span></p>
+        <p>Tu as <span id="autoCookie">0</span> auto-click</p>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
